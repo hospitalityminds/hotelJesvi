@@ -422,7 +422,7 @@ ol {
 }
 .filter__form__item .filter__form__datepicker input {
   border: 1px solid #e4e4e4;
-  font-size: 20px;
+  /* font-size: 20px; */
   color: #1d1c1c;
   width: 100%;
   padding-left: 48px;
@@ -459,7 +459,7 @@ ol {
   font-family: "Barlow Condensed", sans-serif;
 }
 .filter__form__item .filter__form__select .nice-select .current {
-  font-size: 20px;
+  /* font-size: 20px; */
   color: #1d1c1c;
   position: relative;
   top: 0;
