@@ -2638,3 +2638,155 @@ ol {
     margin-bottom: 15px;
   }
 }
+
+/* FOOTER */
+#footer{
+	background: #19232d;
+	color: rgba(255,255,255,0.8);
+}
+
+#footer a{
+  color: #fff;
+}
+
+#footer a:hover{
+  color:#e9ad28;
+}
+
+.main-footer{
+	background: #121a21;
+	text-transform: uppercase;
+	font-size: 12px;
+  display: flex;
+  justify-content:space-between ;
+}
+
+#footer h5{
+	/*font-family: "Open Sans",Arial,sans-serif !important;*/
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 16px;
+	letter-spacing: 1.7px;
+	margin-bottom: 30px;
+  color: rgba(255,255,255,0.8);
+}
+
+.footer-logo h1{
+	margin: 0;
+	text-transform: uppercase;
+	font-size: 25px;
+}
+
+.footer-logo h1{
+	color: rgba(255,255,255,0.8) !important;
+}
+
+#toTop{
+	position: fixed;
+	bottom: 50px;
+	right: 20px;
+}
+
+.btn-back-top{
+	width: 35px;
+	height: 35px;
+	font-size: 30px;
+	border-radius: 50%;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	text-align: center;
+	line-height: 30px;
+	opacity: 0.5;
+}
+
+.btn-back-top:hover{
+	opacity: 1;
+}
+
+.footer-widgets{
+	padding-top: 50px;
+
+}
+
+.main-footer{
+	padding: 15px 0;
+	margin-top: 20px;
+}
+
+.copyright{
+	float: left;
+}
+
+.footer-menu ul{
+	list-style: none;
+	float: right;
+	padding: 0;
+	margin-bottom: 0;
+}
+
+.footer-menu ul li{
+	display: inline-block;
+	margin-right: 20px;
+}
+
+.footer-menu ul li:last-child{
+	margin-right: 0;
+}
+
+#footer .widget-content ul{
+	list-style: none;
+	padding: 0;
+	margin-bottom: 0;
+}
+
+.subscribe-form{
+	padding: 0;
+}
+
+@media(max-width: 767px){
+	.footer-menu ul{
+		display: block;
+		float: none;
+	}
+
+	.copyright{
+		float: none;
+		display: block;
+	}
+
+	.main-footer{
+		text-align: center;
+	}
+
+	.subscribe-form{
+		padding: 10px 15px;
+	}
+
+	.subscribe-form .form-control{
+		max-width: 350px;
+		display: inline;
+	}
+}
+
+@media(max-width: 1000px){
+	.footer-widgets{
+		padding-top: 0;
+	}
+
+	#footer h5{
+		margin-bottom: 15px;
+	}
+
+	.widget-content{
+		padding-top: 30px;
+	}
+}
+
+
+
+.list-inline {
+    padding-left: 0;
+    margin-left: -5px;
+    list-style: none;
+}
+
