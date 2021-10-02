@@ -1539,6 +1539,9 @@ a.close.disabled {
 .fa-instagram:before {
   content: "\f16d";
 }
+.fa-whatsapp:before {
+  content: "\f232";
+}
 .fa-dribbble:before {
   content: "\f17d";
 }
