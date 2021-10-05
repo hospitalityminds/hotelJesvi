@@ -1608,6 +1608,9 @@ a.close.disabled {
 .icon_calendar:before {
   content: "\e023";
 }
+.fa-calendar-check-o::before{
+  content: "\f274";
+}
 .icon_star-half_alt:before {
   content: "\e032";
 }
