@@ -2845,3 +2845,9 @@ ol {
     margin-left: auto;
 }
 
+@media(max-width: 767px){
+.no-flex768{
+  display:unset;
+  margin-bottom: 20px;
+}
+}
