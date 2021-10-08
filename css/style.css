@@ -2850,4 +2850,7 @@ ol {
   display:unset;
   margin-bottom: 20px;
 }
+.pad30{
+  padding: 30px;
+}
 }
