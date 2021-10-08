@@ -2845,6 +2845,10 @@ ol {
     margin-left: auto;
 }
 
+.pad30{
+  padding: 65px;
+}
+
 @media(max-width: 767px){
 .no-flex768{
   display:unset;
