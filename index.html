@@ -21,6 +21,45 @@
 
     <link rel="stylesheet" href="css/theme1.css" type="text/css" />
     <link rel="stylesheet" href="css/style.css" type="text/css" />
+
+    <style>
+        /* Slideshow container */
+        
+        .slideshow-container {
+            /* max-width: 1000px; */
+            position: relative;
+            margin: auto;
+        }
+        /* Hide the images by default */
+        
+        .mySlides {
+            display: none;
+        }
+        /* Caption text */
+        
+        .text {
+            color: #f2f2f2;
+            font-size: 15px;
+            padding: 8px 12px;
+            position: absolute;
+            bottom: 208px;
+            width: 100%;
+            text-align: center;
+        }
+        /* The dots/bullets/indicators */
+        
+        .dot {
+            cursor: pointer;
+            height: 15px;
+            width: 15px;
+            margin: 0 2px;
+            background-color: #bbb;
+            border-radius: 50%;
+            display: inline-block;
+            transition: background-color 0.6s ease;
+        }
+    </style>
+
 </head>
 
 <body>
@@ -31,7 +70,7 @@
     <div class="offcanvas-menu-overlay"></div>
     <div class="offcanvas-menu-wrapper">
         <div class="offcanvas__logo">
-            <a href="index.html"><img style="width: 80px;" src="images/logo-trans.png" alt="Hotel J ESVI"></a>
+            <a href="index.html"><img style="width: 100px;" src="images/logo-trans.png" alt="Hotel J ESVI"></a>
         </div>
         <div id="mobile-menu-wrap"></div>
         <div class="offcanvas__btn__widget">
@@ -106,7 +145,7 @@
                 <div class="row">
                     <div class="col-lg-2">
                         <div class="header__logo">
-                            <a href="index.html"><img style="width: 80px;" src="images/logo-trans.png" alt="Hotel J ESVI" /></a>
+                            <a href="index.html"><img style="width: 100px;" src="images/logo-trans.png" alt="Hotel J ESVI" /></a>
                         </div>
                     </div>
                     <div class="col-lg-10">
@@ -115,7 +154,7 @@
                                 <ul class="menu__class">
                                     <li class="active"><a href="index.html">Home</a></li>
                                     <!-- <li><a href="rooms.html">Rooms</a></li> -->
-                                    <li><a href="about.html">About Us</a></li>
+                                    <!-- <li><a href="about.html">About Us</a></li> -->
                                     <li>
                                         <a href="rooms.html">Rooms</a>
                                         <ul class="dropdown">
@@ -125,7 +164,7 @@
                                         </ul>
                                     </li>
                                     <li><a href="gallery.html">Gallery</a></li>
-                                    <li><a href="offers.html">Offers</a></li>
+                                    <!-- <li><a href="offers.html">Offers</a></li> -->
                                     <li><a href="contact.html">Contact</a></li>
                                 </ul>
                             </nav>
@@ -141,56 +180,96 @@
             </div>
         </div>
     </header>
+    <!-- data-setbg="images/whyChoose-bg.jpeg" -->
 
-    <section class="hero spad set-bg" data-setbg="images/whyChoose-bg.jpeg">
-        <div class="container heromobile" style="background-color: rgba(0, 0, 0, 0.35); padding:50px; border-radius:15px">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="hero__text">
-                        <h5 style="font-size: 25px; font-weight: 800;">WELCOME TO J ESVI</h5>
-                        <h2>Have a comfortable experience during your stay.</h2>
-                    </div>
-                    <!-- <form action="#" class="filter__form">
-                        <div class="filter__form__item filter__form__item--search">
-                            <p>Location</p>
-                            <div class="filter__form__input">
-                                <input type="text" placeholder="Search Location" />
-                                <span class="icon_search"></span>
-                            </div>
-                        </div>
-                        <div class="filter__form__item">
-                            <p>Check In</p>
-                            <div class="filter__form__datepicker">
-                                <span class="icon_calendar"></span>
-                                <input type="text" class="datepicker_pop check__in" />
-                                <i class="arrow_carrot-down"></i>
-                            </div>
-                        </div>
-                        <div class="filter__form__item">
-                            <p>Check Out</p>
-                            <div class="filter__form__datepicker">
-                                <span class="icon_calendar"></span>
-                                <input type="text" class="datepicker_pop check__out" />
-                                <i class="arrow_carrot-down"></i>
-                            </div>
-                        </div>
-                        <div class="filter__form__item filter__form__item--select">
-                            <p>Person</p>
-                            <div class="filter__form__select">
-                                <span class="icon_group"></span>
-                                <select>
-                    <option value="">2 Adult, 1 Children</option>
-                    <option value="">2 Adult</option>
-                    <option value="">1 Adult</option>
-                  </select>
-                            </div>
-                        </div>
-                        <button type="submit">BOOK NOW</button>
-                    </form> -->
-                </div>
+    <!-- <section class="hero spad set-bg"> -->
+    <!-- Slideshow container -->
+    <div class="slideshow-container">
+
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides">
+            <img src="images/hero1.png" style="width:100%;">
+            <div class="text">
+                <h3 style="color: #fff">Welcome to Hotel J Esvi</h3><br>
+                <h5 style="color: #fff;">Located in the heart of Andheri suburb of Mumbai, we are one of the highest rated hotels of Mumbai having a 4 star rating on Goibibo<br> and being rated 9 on booking.com for cleanliness!</h5>
             </div>
         </div>
-    </section>
+
+        <div class="mySlides">
+            <img src="images/hero3.png" style="width:100%">
+            <div class="text">
+                <h3 style="color: #fff">It was a great stay, especially because of the staff who were very service oriented and accomodating. The location, being absolutely close to the station is a great advantage. A decent property with adequate amenities for families and
+                    bachelors alike.</h3>
+                <h5 style="color: #fff;">- Ujjval Parikh, 28th Oct, 2021</h5><br><br>
+                <h3 style="color: #fff">Excellent location and service. Staff very friendly rooms very clean and delicious breakfast.</h3>
+                <h5 style="color: #fff;">- Rajkumar Dawra, Solo Traveller</h5>
+            </div>
+        </div>
+
+        <div class="mySlides">
+            <img src="images/hero2.png" style="width:100%">
+            <div class="text">
+                <h3 style="color: #fff">Clean and maintained and value for money.</h3>
+                <h5 style="color: #fff;">- Ashwini Sikri, Solo Traveller</h5><br><br>
+                <h3 style="color: #fff">Good hotel for business travellers. standard rooms are smaller in size but maintained well. it's comfortable, neat and clean and washrooms also tidy. staff is also co operative. Location has benefit of almost everything being nearby like
+                    mughlai restaurants, McDonald's in same premises, sweet shops, general store, and jogeshwari station right beside.</h3>
+                <h5 style="color: #fff;">- Murtuza Arsiwala, 23rd Feb, 2020</h5>
+            </div>
+        </div>
+
+    </div>
+    <!--<div class="container heromobile" style="background-color: rgba(0, 0, 0, 0.35); padding:50px; border-radius:15px">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="hero__text">
+                    <h5 style="font-size: 25px; font-weight: 800;">WELCOME TO J ESVI</h5>
+                    <h2>in the Andheri Suburb of Mumbai!</h2>
+                </div>
+                <form action="#" class="filter__form">
+                    <div class="filter__form__item filter__form__item--search">
+                        <p>Rooms</p>
+                        <div class="filter__form__select">
+                            <select>
+                                <option value="">1</option>
+                                <option value="">2</option>
+                                <option value="">3</option>
+                                <option value="">4</option>
+                              </select>
+                        </div>
+                    </div>
+                    <div class="filter__form__item">
+                        <p>Check In</p>
+                        <div class="filter__form__datepicker">
+                            <span class="icon_calendar"></span>
+                            <input type="text" class="datepicker_pop check__in" />
+                            <i class="arrow_carrot-down"></i>
+                        </div>
+                    </div>
+                    <div class="filter__form__item">
+                        <p>Check Out</p>
+                        <div class="filter__form__datepicker">
+                            <span class="icon_calendar"></span>
+                            <input type="text" class="datepicker_pop check__out" />
+                            <i class="arrow_carrot-down"></i>
+                        </div>
+                    </div>
+                    <div class="filter__form__item filter__form__item--select">
+                        <p>Person</p>
+                        <div class="filter__form__select">
+                            <span class="icon_group"></span>
+                            <select>
+                                  <option value="">2 Adult</option>
+                                  <option value="">2 Adult, 1 Child</option>
+                                  <option value="">1 Adult</option>
+                                </select>
+                        </div>
+                    </div>
+                    <button type="submit">BOOK NOW</button>
+                </form>
+    </div>
+    </div>
+    </div>-->
+    <!-- </section> -->
 
     <section class="home-about">
         <div class="container">
@@ -199,22 +278,24 @@
                     <div class="home__about__text">
                         <div class="section-title">
                             <h5>ABOUT US</h5>
-                            <h2>WELCOME TO Hotel J ESVI In Jogeshwari</h2>
+                            <h2>Welcome To Hotel J ESVI In The Andheri Suburb of Mumbai!</h2>
                         </div>
                         <p class="first-para">
-                            One of the best hotels in Jogeshwari West, Hotel J ESVI is a complete budget-friendly family Hotel in Jogeshwari, for both Business and Leisure Travellers situated in the heart of Mumbai City. This hotel is a budget-oriented hotel in Jogeshwariwest with
-                            37 spacious rooms.
+                            One of the best budget luxury hotels in Mumbai, Hotel J ESVI offers fully Air Conditioned rooms, en-suite bathrooms, 24/7 Reception, free wifi, breakfast, minibar and a heavenly bed. <br>Hotel J ESVI is very safe for independent
+                            women travellers and is equipped with CCTV surveillance, smoke & Fire alarms and comprehensive fire-fighting equipment that is audited every six months. The hotel is top-rated among hotels near Bombay Exhibition Centre NESCO,
+                            Goregaon and is also reasonably close to the new JIO Convention Center.
+
                         </p>
                         <p class="last-para">
-                            Hotel J ESVI, one of the best hotel in Mumbai offers fully Air Conditioned rooms and is well equipped with best in class modern amenities like LED TV, free Wi-Fi and much more . Our hotel is also well equipped with CCTV surveillance and smoke Fire alarms
-                            for safety & Security of our valuable guest.
+                            The hotel is a preferred hotel for medical tourism and is the perfect choice for travellers who are looking for hotels near Kokilaben Hospital (4.2 km) & Nanavati Hospital (4.6 km). The hotel is just 2.5 km close to the main hub of Mumbai’s Media & Entertainment
+                            Industry in Veera Desai, Andheri West with companies as Yashraj Studios, Balaji Telefilms, Dharma Productions, Reliance Entertainment, ITOP Productions.
                         </p>
 
                     </div>
                 </div>
                 <div class="col-lg-6">
                     <div class="home__about__pic">
-                        <img src="images/home3.jpeg" alt="Hotel J ESVI" />
+                        <img src="images/home3.png" alt="Hotel J ESVI" />
                     </div>
                 </div>
             </div>
@@ -414,15 +495,15 @@
                                         <i class="fa fa-star"></i>
                                     </div>
                                     <p>
-                                        The location is perfect on S. V. Road and jogeshwari railway station walkable distance. The front desk staffs are quick and hardly takes minutes for check-in. Rooms and linen are clean. Breakfast was also good and served in room. For lunch and dinner
-                                        some good outlets are on walkable distance. Perfect stay for couples, family and solo travelers
+                                        Value for money good Ambience helpful staff clean and spacious room overall good service location is superb nearby station and rickshaw stand right in front and on SV road close to many good restaurants and Mc Donald is right below housekeeping staffs
+                                        did excellent job whatever we asked they took as command Manager and other reception staffs were too helpful and friendly specially Mr. Sagar he was available on call 24hrs
                                     </p>
                                     <div class="testimonial__author">
                                         <div class="row">
                                             <div class="col-lg-6 col-md-6">
                                                 <div class="testimonial__author__title">
-                                                    <h5>Ahmed Shaikh</h5>
-                                                    <!-- <span>Director Colorlib</span> -->
+                                                    <h5>Akhil Iyer</h5>
+                                                    <span>2 Nights, 23 Oct 2021</span>
                                                 </div>
                                             </div>
                                             <div class="col-lg-6 col-md-6">
@@ -454,7 +535,7 @@
                                                 <div class="testimonial__author__title">
                                                     <h5>
                                                         KAPIL SHUKLA</h5>
-                                                    <!-- <span>Director Colorlib</span> -->
+                                                    <span>1 Night, 11th May 2020</span>
                                                 </div>
                                             </div>
                                             <div class="col-lg-6 col-md-6">
@@ -484,9 +565,8 @@
                                         <div class="row">
                                             <div class="col-lg-6 col-md-6">
                                                 <div class="testimonial__author__title">
-                                                    <h5>
-                                                        Tonmoy Sen</h5>
-                                                    <!-- <span>Director Colorlib</span> -->
+                                                    <h5>Tonmoy Sen</h5>
+                                                    <span>1 Night, 3rd Feb 2021</span>
                                                 </div>
                                             </div>
                                             <div class="col-lg-6 col-md-6">
@@ -517,7 +597,38 @@
                                             <div class="col-lg-6 col-md-6">
                                                 <div class="testimonial__author__title">
                                                     <h5>Ahmed Shaikh</h5>
-                                                    <!-- <span>Director Colo+rlib</span> -->
+                                                    <span>2 Nights, 18th July 2020</span>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6 col-md-6">
+                                                <div class="testimonial__author__social">
+                                                    <a href="https://www.facebook.com/107384261700426/posts/112064681232384/"><i class="fa fa-facebook"></i></a>
+
+                                                    <a href="https://www.instagram.com/p/CUT7-YstCuz/?utm_medium=copy_link"><i class="fa fa-instagram"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="testimonial__item">
+                                    <h5>Goibibo Review:</h5>
+                                    <div class="rating">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                    <p>
+                                        Good hotel for business travellers. standard rooms are smaller in size but maintained well. it's comfortable, neat and clean and washrooms also tidy. staff is also co operative. Location has benefit of almost everything being nearby like mughlai restaurants,
+                                        McDonald's in same premises, sweet shops, general store, and jogeshwari station right beside.
+                                    </p>
+                                    <div class="testimonial__author">
+                                        <div class="row">
+                                            <div class="col-lg-6 col-md-6">
+                                                <div class="testimonial__author__title">
+                                                    <h5>Murtuza Arsiwala</h5>
+                                                    <span>2 Nights, 23rd Feb 2020</span>
                                                 </div>
                                             </div>
                                             <div class="col-lg-6 col-md-6">
@@ -559,48 +670,35 @@
     </div>
 
     <section class="gallery spad">
-      <div class="gallery__text">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-6 col-md-6 col-sm-6">
-              <div class="section-title">
-                <h5>OUR GALLERY</h5>
-                <h2>Explore The Most Beautiful  Hotel</h2>
-              </div>
-            </div>
-            <div class="col-lg-6 col-md-6 col-sm-6">
-              <div class="gallery__title">
-                <!-- <p>
+        <div class="gallery__text">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-md-8 col-sm-12">
+                        <div class="section-title">
+                            <h5>OUR GALLERY</h5>
+                            <h2>Explore The Most Beautiful Hotel</h2>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12">
+                        <div class="gallery__title">
+                            <!-- <p>
                   Duis aute irure dolor in reprehenderit in voluptate velit esse
                   cillum dolore eu fugiat nulla pariatur. Sunt in culpa qui
                   officia deserunt mollit anim.
                 </p> -->
-                <a href="gallery.html" class="primary-btn"
-                  >View Gallery <span class="arrow_right"></span
+                            <a href="gallery.html" class="primary-btn">View Gallery <span class="arrow_right"></span
                 ></a>
-              </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
-      <div class="gallery__slider owl-carousel">
-        <div
-          class="gallery__item small__item set-bg"
-          data-setbg="images/1.jpeg"
-        ></div>
-        <div
-          class="gallery__item set-bg"
-          data-setbg="images/2.jpeg"
-        ></div>
-        <div
-          class="gallery__item set-bg"
-          data-setbg="images/4.jpeg"
-        ></div>
-        <div
-          class="gallery__item set-bg"
-          data-setbg="images/15.jpeg"
-        ></div>
-      </div>
+        <div class="gallery__slider owl-carousel">
+            <div class="gallery__item small__item set-bg" data-setbg="images/1.jpeg"></div>
+            <div class="gallery__item set-bg" data-setbg="images/2.jpeg"></div>
+            <div class="gallery__item set-bg" data-setbg="images/4.jpeg"></div>
+            <div class="gallery__item set-bg" data-setbg="images/15.jpeg"></div>
+        </div>
     </section>
 
     <!-- <section class="latest-blog spad">
@@ -842,6 +940,24 @@
         gtag("js", new Date());
 
         gtag("config", "UA-23581568-13");
+    </script>
+    <script>
+        var slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {
+                slideIndex = 1
+            }
+            slides[slideIndex - 1].style.display = "block";
+            setTimeout(showSlides, 6000); // Change image every 6 seconds
+        }
     </script>
     <script defer="" src="../../beacon.min.js" data-cf-beacon='{"rayId":"696cd5949f7c33ae","token":"cd0b4b3a733644fc843ef0b185f98241","version":"2021.9.0","si":100}'></script>
 </body>
