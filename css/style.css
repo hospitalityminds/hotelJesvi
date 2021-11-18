@@ -2701,6 +2701,9 @@ ol {
 }
 
 @media only screen and (max-width: 767px) {
+    .hero {
+        height: 200px !important;
+    }
     .about-heading {
         font-size: 30px !important;
     }
