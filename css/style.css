@@ -2701,7 +2701,7 @@ ol {
 }
 
 @media only screen and (max-width: 767px) {
-    .hero {
+    .hero1 {
         height: 200px !important;
     }
     .about-heading {
