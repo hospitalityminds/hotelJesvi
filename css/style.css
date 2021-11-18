@@ -184,7 +184,7 @@ ol {
 .header__top__auth {
     display: inline-block;
     margin-right: 45px;
-    padding: 12px 0 14px;
+    padding: 11px 0 15px;
 }
 
 .header__top__auth ul li {
@@ -372,7 +372,7 @@ ol {
     color: #1d1c1c;
     letter-spacing: 2px;
     background: #fff;
-    padding: 13px 20px 11px;
+    padding: 1px 5px 1px;
 }
 
 .header__nav__widget a span {
@@ -2701,6 +2701,9 @@ ol {
 }
 
 @media only screen and (max-width: 767px) {
+    .about-heading {
+        font-size: 30px !important;
+    }
     .testimonial__pic,
     .testi_mob {
         display: none;
